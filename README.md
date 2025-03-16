@@ -44,19 +44,19 @@ Instead of globally installing dependencies, use a virtual environment:
 
 #### **Mac/Linux**
 ```sh
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
 #### **Windows (Command Prompt)**
 ```sh
-python -m venv venv
+python3 -m venv venv
 venv\Scripts\activate
 ```
 
 #### **Windows (PowerShell)**
 ```sh
-python -m venv venv
+python3 -m venv venv
 venv\Scripts\Activate.ps1
 ```
 
@@ -79,7 +79,7 @@ cd /path/to/Airbnb_data_analysis/
 
 ### Run the Streamlit App
 ```sh
-python launcher.py
+python3 launcher.py
 ```
 or directly via:
 ```sh
