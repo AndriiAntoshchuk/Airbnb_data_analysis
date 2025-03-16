@@ -39,16 +39,59 @@ Airbnb_data_analysis/
 ---
 
 ## **How to Run the Project**
-1. Install dependencies:
-   ```sh
-   pip install pandas matplotlib seaborn streamlit prophet geopandas folium streamlit_folium
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd /path/to/Airbnb_data_analysis/
-   ```
-3. Run the Streamlit app:
-   ```sh
-   python launcher.py
-   ```
+### Create & Activate Virtual Environment (Recommended)
+Instead of globally installing dependencies, use a virtual environment:
+
+#### **Mac/Linux**
+```sh
+python -m venv venv
+source venv/bin/activate
+```
+
+#### **Windows (Command Prompt)**
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### **Windows (PowerShell)**
+```sh
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+---
+
+###  Install Dependencies
+```sh
+pip install pandas matplotlib seaborn streamlit prophet geopandas folium streamlit_folium
+```
+
+---
+
+### Navigate to the Project Directory
+```sh
+cd /path/to/Airbnb_data_analysis/
+```
+(Replace `/path/to/` with your actual path.)
+
+---
+
+### Run the Streamlit App
+```sh
+python launcher.py
+```
+or directly via:
+```sh
+streamlit run data_analyse.py
+```
+
+---
+
+### (Optional) Deactivate Virtual Environment
+After running the project, deactivate the virtual environment:
+```sh
+deactivate
+```
+
 
